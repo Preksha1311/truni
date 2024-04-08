@@ -56,7 +56,6 @@ const Navbar = async (props: Props) => {
             Dashboard
           </span>
         </Link>
-     
         <MenuIcon className="md:hidden" />
       </aside>
     </header>
