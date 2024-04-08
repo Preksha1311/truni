@@ -5,7 +5,7 @@ import { HeroParallax } from '../components/global/connect-parallax';
 import { products, clients } from '../lib/constant';
 import Navbar from '../components/global/Navbar';
 import { InfiniteMovingCards } from '../components/global/infinite-moving-cards';
-import { LampContainer } from '../components/global/lamp';
+import { LampComponent } from '../components/global/lamp';
 
 export default function Home() {
   return (
@@ -42,8 +42,10 @@ export default function Home() {
       <section>
         <HeroParallax products={products}></HeroParallax>
       </section>
+    
       <section className="mt-[-500px]">
-      <LampContainer/>
+     <LampComponent/>
+     <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72"></div>
       </section>
     </main>
   );
