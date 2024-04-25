@@ -23,8 +23,8 @@ export default function RootLayout({
       defaultTheme="dark"
       enableSystem
       disableTransitionOnChange
-    
-      >{children}
+      >
+      {children}
       </ThemeProvider>
       </body>
     </html>

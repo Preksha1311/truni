@@ -96,7 +96,7 @@ export const LampContainer = ({
           className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-neutral-400 "
         ></motion.div>
 
-        <div className="w-[40rem] h-40 relative">
+        <div className="w-80 h-40 relative">
           <SparklesCore
             background="transparent"
             minSize={0.4}
